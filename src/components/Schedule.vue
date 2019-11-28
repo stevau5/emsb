@@ -209,9 +209,25 @@ export default {
 
 
             for(i = s; i <= e; i.setDate(i.getDate() + 7)){
+                // I need to check if the date is part of
+                // some dates that are non teaching days.
+
+                // Christmas
+                var christmasStart = new Date(2019, 11, 23);
+                var christmasEnd = new Date(2020, 0, 3);
+                if(i >= christmasStart && i <= christmasEnd) {
+                    // eslint-disable-next-line no-console
+                    console.log("Skipping: " + i)
+                    continue;
+                }
+
+                // Summer Break
+
+                
+
+
                 this.dates.push(i.getDate() + "/" + (i.getMonth()+1) + "/" + i.getFullYear());
-                // eslint-disable-next-line no-console
-                console.log(this.dates);
+                //console.log(this.dates);
             }
 
             

@@ -51,7 +51,7 @@ export default {
                 teacher: this.teacherName
             }
             this.hasBeenClicked = true
-            this.$emit('generateSchedule', newClass);
+            this.$emit('generateSchedule', newClass); //useless statement
         }
     }
     

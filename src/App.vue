@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <h1>Hello World</h1>
+    <h1>EMSB Scheduler</h1>
+    <Form />
   </div>
 </template>
 
 <script>
+import Form from './components/Form'
 
 export default {
   name: 'app',
   components: {
+    Form
     
   }
 }

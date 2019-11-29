@@ -6,9 +6,6 @@
             <label for="startDate" class="col-sm-2 col-form-label">Start Date</label>
             <input class="col-sm-10" type="text" v-model="startDate" name="startDate" placeholder="DD/MM/YYYY">
             <br>
-            <label for="endDate" class="col-sm-2 col-form-label">End Date</label>
-            <input class="col-sm-10" type="text" v-model="endDate" name="endDate" placeholder="DD/MM/YYYY">
-            <br>
             <label for="teacherName" class="col-sm-2 col-form-label">Teacher</label>
             <input class="col-sm-10" type="text" v-model="teacherName" name="teacherName" placeholder="Teacher Name">
             <br>
@@ -37,7 +34,6 @@ export default {
     data() {
         return {
             startDate: '',
-            endDate: '',
             teacherName: '',
             hasBeenClicked: false
         }
@@ -47,7 +43,6 @@ export default {
         handleSubmit() {
             const newClass = {
                 startDate: this.startDate,
-                endDate: this.endDate,
                 teacher: this.teacherName
             }
             this.hasBeenClicked = true

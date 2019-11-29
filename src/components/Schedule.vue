@@ -196,9 +196,6 @@ export default {
         },
         start: {
             type: String
-        },
-        end: {
-            type: String
         }
     },
     methods: {
@@ -216,18 +213,27 @@ export default {
 
     created(){
     
+        // Start Date
         var starting = this.$props.start.split('/');
         starting[1] = starting[1] - 1; 
         var s = new Date(starting[2], starting[1], starting[0]);
 
-        var ending = this.$props.end.split('/');
-        ending[1] = ending[1] - 1;
-        var e = new Date(ending[2], ending[1], ending[0]);
+
+        // This is commented out because if you don't actually know the end date, so i calculate it for you. 
+        // var ending = this.$props.end.split('/');
+        // ending[1] = ending[1] - 1;
+        
+        // Calculate End Date from Start Date * 15 weeks. 
+        var tempDate = new Date(s); 
+        var e = new Date(tempDate.setDate(tempDate.getDate() + 7*15));
+
+
 
         var i;
         for(i = s; i <= e; i.setDate(i.getDate() + 7)){
             // I need to check if the date is part of
             // some dates that are non teaching days.
+
 
             // Christmas
             var christmasStart = new Date(2019, 11, 23);
@@ -238,7 +244,28 @@ export default {
                 continue;
             }
 
-            // Summer Break
+            // // Summer Break
+            // var summerStart;
+            // var summerEnd; 
+
+            // Easter Break
+            var easterStart = new Date(2020, 3, 10);
+            var easterEnd = new Date(2020, 3, 13);
+            if(i >= easterStart && i <= easterEnd) {
+                // eslint-disable-next-line no-console
+                console.log("Skipping: " + i);
+                continue; 
+            }
+
+
+            // March Break
+            var marchbreakStart = new Date(2020, 2, 2);
+            var marchbreakEnd = new Date(2020, 2, 6);
+            if(i >= marchbreakStart && i <= marchbreakEnd) {
+                // eslint-disable-next-line no-console
+                console.log("Skipping: " + i);
+                continue; 
+            }
 
             
 

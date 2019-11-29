@@ -171,6 +171,13 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="col text-center">
+                Total Teaching Hours: 90
+                <br>
+                Total Mentoring Hours: 90
+                <br>
+                Total Hours: 180 
+            </div>
         </div>
         <div class="col text-center">
             <form @submit.prevent="generatePDF">

@@ -1,7 +1,6 @@
 <template>
     <div class="container">
-        <h1>hello</h1>
-        <h2>world</h2>
+        <h1>EMSB Scheduler</h1>
         <br>
         <form @submit.prevent="handleSubmit">
                 

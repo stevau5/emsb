@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>EMSB Scheduler</h1>
     <Form />
   </div>
 </template>

@@ -1,4 +1,4 @@
-# emsb
+# emsb scheduler
 
 ## Project setup
 ```

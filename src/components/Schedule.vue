@@ -189,7 +189,8 @@
 </template>
 
 <script>
-import html2pdf from 'html2pdf.js';
+
+// import html2pdf from 'html2pdf.js';
 
 export default {
     data() {
@@ -207,6 +208,7 @@ export default {
     },
     methods: {
         generatePDF(){
+            const html2pdf = require('html2pdf.js');
             var element = document.getElementById("schedule");
             var opt = {
                 margin:       0.4,

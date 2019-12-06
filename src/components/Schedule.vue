@@ -2,10 +2,10 @@
     <div class="container">
         <div id="schedule">
             <div class="col text-center">
-                <h2><img id="logo" src="../assets/emsb.png" alt=""> Schedule for {{teacher}}</h2>
+                <h3><img id="logo" src="../assets/emsb.png" alt=""> Schedule for {{teacher}}</h3>
             </div>
-            <table class="table table-dark">
-                <thead>
+            <table class="table">
+                <thead class="thead-light"> 
                     <tr>
                         <th>School Name</th>
                         <th>Address</th>
@@ -14,7 +14,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="table-info">
                         <td>Fengye</td>
                         <td>1850 de Maissoneuve Ouest</td>
                         <td>Starting a Business</td>
@@ -25,8 +25,8 @@
             </table>
 
 
-            <table class="table">
-                <thead>
+            <table class="table table-hover table-sm">
+                <thead class="thead-light">
                     <tr>
                     <th scope="col">Class</th>
                     <th scope="col">Hours</th>
@@ -193,11 +193,9 @@
                 </tbody>
             </table>
             <div class="col text-center">
-                Total Teaching Hours: 90
-                <br>
-                Total Mentoring Hours: 90
-                <br>
-                Total Hours: 180 
+                <b>Total Teaching Hours: 90 - Total Mentoring Hours: 90 - Total Hours: 180 </b>
+                <br>   
+                <br>            
             </div>
         </div>
         <div class="col text-center">

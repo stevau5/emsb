@@ -15,10 +15,10 @@
                 </thead>
                 <tbody>
                     <tr class="table-info">
-                        <td>Fengye</td>
-                        <td>1850 de Maissoneuve Ouest</td>
+                        <td>{{school}}</td>
+                        <td>{{address}}</td>
                         <td>Starting a Business</td>
-                        <td>F18B9316J4</td>
+                        <td>{{code}}</td>
                     </tr>
                 </tbody>
 
@@ -35,6 +35,8 @@
                     <th scope="col">Module Name</th>
                     <th scope="col">Teacher</th>
                     <th scope="col">Year</th>
+                    <th scope="col">Guided Learning</th>
+
                     
                     
                     </tr>
@@ -48,6 +50,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -58,7 +61,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
-                        
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -69,6 +72,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -79,6 +83,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -89,6 +94,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -99,6 +105,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -109,6 +116,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -119,6 +127,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -129,6 +138,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -139,6 +149,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -149,6 +160,7 @@
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -159,6 +171,7 @@
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -169,6 +182,7 @@
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -179,6 +193,7 @@
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
 
                     <tr>
@@ -189,6 +204,7 @@
                         <td>Business Plan</td>
                         <td>{{teacher}}</td>
                         <td>2020/2021</td>
+                        <td class="text-center">6</td>
                     </tr>
                 </tbody>
             </table>
@@ -222,6 +238,15 @@ export default {
             type: String
         },
         start: {
+            type: String
+        },
+        school: {
+            type: String
+        },
+        address: {
+            type: String
+        }, 
+        code: {
             type: String
         }
     },

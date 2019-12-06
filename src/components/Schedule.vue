@@ -2,8 +2,29 @@
     <div class="container">
         <div id="schedule">
             <div class="col text-center">
-                <h2><img id="logo" src="../assets/emsb.png" alt=""> Schedule for {{teacher}} <img id="logo" src="../assets/emsb.png" alt=""></h2>
+                <h2><img id="logo" src="../assets/emsb.png" alt=""> Schedule for {{teacher}}</h2>
             </div>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>School Name</th>
+                        <th>Address</th>
+                        <th>Program Name</th>
+                        <th>Group Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fengye</td>
+                        <td>1850 de Maissoneuve Ouest</td>
+                        <td>Starting a Business</td>
+                        <td>F18B9316J4</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
             <table class="table">
                 <thead>
                     <tr>
@@ -295,8 +316,8 @@ export default {
 
 <style>
     #logo {
-        width: 10%;
-        height: 10%;
+        width: 4%;
+        height: 4%;
     }
 
 

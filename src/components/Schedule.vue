@@ -312,8 +312,8 @@ export default {
 
 
             // March Break
-            var marchbreakStart = new Date(2020, 2, 2);
-            var marchbreakEnd = new Date(2020, 2, 6);
+            var marchbreakStart = new Date(2020, 1, 29);
+            var marchbreakEnd = new Date(2020, 2, 9);
             if(i >= marchbreakStart && i <= marchbreakEnd) {
                 // eslint-disable-next-line no-console
                 console.log("Skipping: " + i);

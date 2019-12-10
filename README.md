@@ -1,5 +1,7 @@
 # emsb scheduler
 
+https://emsb-schedule.herokuapp.com/
+
 ## Project setup
 ```
 npm install

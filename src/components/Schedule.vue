@@ -49,7 +49,7 @@
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -60,7 +60,7 @@
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -71,7 +71,7 @@
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -82,7 +82,7 @@
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -93,7 +93,7 @@
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -104,7 +104,7 @@
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -115,7 +115,7 @@
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -126,7 +126,7 @@
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -137,7 +137,7 @@
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -148,7 +148,7 @@
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -159,7 +159,7 @@
                         <td>946494</td>
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -170,7 +170,7 @@
                         <td>946494</td>
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -181,7 +181,7 @@
                         <td>946505</td>
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -192,7 +192,7 @@
                         <td>946505</td>
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
 
@@ -203,7 +203,7 @@
                         <td>946505</td>
                         <td>Business Plan</td>
                         <td>{{teacher}}</td>
-                        <td>2020/2021</td>
+                        <td>2019/2020</td>
                         <td class="text-center">6</td>
                     </tr>
                 </tbody>
@@ -313,7 +313,7 @@ export default {
 
             // March Break
             var marchbreakStart = new Date(2020, 1, 29);
-            var marchbreakEnd = new Date(2020, 2, 9);
+            var marchbreakEnd = new Date(2020, 2, 6);
             if(i >= marchbreakStart && i <= marchbreakEnd) {
                 // eslint-disable-next-line no-console
                 console.log("Skipping: " + i);

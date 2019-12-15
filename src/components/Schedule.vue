@@ -50,7 +50,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -61,7 +61,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -72,7 +72,7 @@
                         <td>Business Proposal & Training process</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -83,7 +83,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -94,7 +94,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -105,7 +105,7 @@
                         <td>Computer Tools / Business Plan Outline</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -116,7 +116,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -127,7 +127,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -138,7 +138,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -149,7 +149,7 @@
                         <td>Marketing And Sales</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -160,7 +160,7 @@
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -171,7 +171,7 @@
                         <td>Planning Resources</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -182,7 +182,7 @@
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -193,7 +193,7 @@
                         <td>Financial Plan</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
 
                     <tr>
@@ -204,7 +204,7 @@
                         <td>Business Plan</td>
                         <td>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-center">6</td>
+                        <td class="text-left">6</td>
                     </tr>
                 </tbody>
             </table>
@@ -258,7 +258,7 @@ export default {
                 margin:       0.4,
                 filename:     'schedule.pdf',    
                 html2canvas:  { scale: 2 },
-                jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+                jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
             };
             html2pdf().set(opt).from(element).save();
         }

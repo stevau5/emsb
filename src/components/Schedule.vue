@@ -48,9 +48,9 @@
                         <td>{{dates[0]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -59,9 +59,9 @@
                         <td>{{dates[1]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -70,9 +70,9 @@
                         <td>{{dates[2]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -81,9 +81,9 @@
                         <td>{{dates[3]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -92,9 +92,9 @@
                         <td>{{dates[4]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -103,9 +103,9 @@
                         <td>{{dates[5]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -114,9 +114,9 @@
                         <td>{{dates[6]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -125,9 +125,9 @@
                         <td>{{dates[7]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable> {{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -136,9 +136,9 @@
                         <td>{{dates[8]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -147,9 +147,9 @@
                         <td>{{dates[9]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -158,9 +158,9 @@
                         <td>{{dates[10]}}</td>
                         <td>946494</td>
                         <td>Planning Resources</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -169,9 +169,9 @@
                         <td>{{dates[11]}}</td>
                         <td>946494</td>
                         <td>Planning Resources</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -180,9 +180,9 @@
                         <td>{{dates[12]}}</td>
                         <td>946505</td>
                         <td>Financial Plan</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -191,9 +191,9 @@
                         <td>{{dates[13]}}</td>
                         <td>946505</td>
                         <td>Financial Plan</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
@@ -202,9 +202,9 @@
                         <td>{{dates[14]}}</td>
                         <td>946505</td>
                         <td>Business Plan</td>
-                        <td>{{teacher}}</td>
+                        <td contenteditable>{{teacher}}</td>
                         <td>2019/2020</td>
-                        <td class="text-left">6</td>
+                        <td class="text-left" contenteditable>6</td>
                     </tr>
                 </tbody>
             </table>

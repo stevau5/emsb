@@ -20,19 +20,14 @@
             <input class="col-sm-10" type="text" v-model="groupCode" name="groupCode" placeholder="Group Code">
             <br>
 
-
             <div class="col text-center">
                 <input type="submit" value="Submit" class="btn-info col-sm-3">    
             </div>
         </form>
         <br>
         <Schedule v-if="hasBeenClicked" v-bind:teacher="teacherName" v-bind:start="startDate" v-bind:school="schoolName" v-bind:address="addressName" v-bind:code="groupCode"/>
-
-
     </div>
 </template>
-
-
 <script>
 
 import Schedule from './Schedule';

@@ -8,16 +8,18 @@
                 <thead class="thead-light"> 
                     <tr>
                         <th>School Name</th>
-                        <th>Address</th>
-                        <th>Program Name</th>
+                        <th>Time</th>
+                        <th>Weekday</th>
+                        <th>Start Date</th>
                         <th>Group Code</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="table-info">
                         <td>{{school}}</td>
-                        <td>{{address}}</td>
-                        <td>Starting a Business</td>
+                        <td>{{time}}</td>
+                        <td><b>{{day}}</b></td>
+                        <td>{{dates[0]}}</td>
                         <td>{{code}}</td>
                     </tr>
                 </tbody>
@@ -45,165 +47,165 @@
                     <tr>
                     <th scope="row">1</th>
                         <td>6</td>
-                        <td>{{dates[0]}}</td>
+                        <td contenteditable>{{dates[0]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                     <th scope="row">2</th>
                         <td>6</td>
-                        <td>{{dates[1]}}</td>
+                        <td contenteditable>{{dates[1]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                     <th scope="row">3</th>
                         <td>6</td>
-                        <td>{{dates[2]}}</td>
+                        <td contenteditable>{{dates[2]}}</td>
                         <td>946452</td>
                         <td>Business Proposal & Training process</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                     <th scope="row">4</th>
                         <td>6</td>
-                        <td>{{dates[3]}}</td>
+                        <td contenteditable>{{dates[3]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                     <th scope="row">5</th>
                         <td>6</td>
-                        <td>{{dates[4]}}</td>
+                        <td contenteditable>{{dates[4]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">6</th>
                         <td>6</td>
-                        <td>{{dates[5]}}</td>
+                        <td contenteditable>{{dates[5]}}</td>
                         <td>946462 / 946472</td>
                         <td>Computer Tools / Business Plan Outline</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">7</th>
                         <td>6</td>
-                        <td>{{dates[6]}}</td>
+                        <td contenteditable>{{dates[6]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">8</th>
                         <td>6</td>
-                        <td>{{dates[7]}}</td>
+                        <td contenteditable>{{dates[7]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td contenteditable> {{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">9</th>
                         <td>6</td>
-                        <td>{{dates[8]}}</td>
+                        <td contenteditable>{{dates[8]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">10</th>
                         <td>6</td>
-                        <td>{{dates[9]}}</td>
+                        <td contenteditable>{{dates[9]}}</td>
                         <td>946487</td>
                         <td>Marketing And Sales</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">11</th>
                         <td>6</td>
-                        <td>{{dates[10]}}</td>
+                        <td contenteditable>{{dates[10]}}</td>
                         <td>946494</td>
                         <td>Planning Resources</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">12</th>
                         <td>6</td>
-                        <td>{{dates[11]}}</td>
+                        <td contenteditable>{{dates[11]}}</td>
                         <td>946494</td>
                         <td>Planning Resources</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">13</th>
                         <td>6</td>
-                        <td>{{dates[12]}}</td>
+                        <td contenteditable>{{dates[12]}}</td>
                         <td>946505</td>
                         <td>Financial Plan</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">14</th>
                         <td>6</td>
-                        <td>{{dates[13]}}</td>
+                        <td contenteditable>{{dates[13]}}</td>
                         <td>946505</td>
                         <td>Financial Plan</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
 
                     <tr>
                         <th scope="row">15</th>
                         <td>6</td>
-                        <td>{{dates[14]}}</td>
+                        <td contenteditable>{{dates[14]}}</td>
                         <td>946505</td>
                         <td>Business Plan</td>
                         <td contenteditable>{{teacher}}</td>
-                        <td>2019/2020</td>
+                        <td>2020/2021</td>
                         <td class="text-left" contenteditable>6</td>
                     </tr>
                 </tbody>
@@ -243,10 +245,13 @@ export default {
         school: {
             type: String
         },
-        address: {
+        time: {
             type: String
         }, 
         code: {
+            type: String
+        },
+        day: {
             type: String
         }
     },
@@ -294,12 +299,9 @@ export default {
             if(i >= christmasStart && i <= christmasEnd) {
                 // eslint-disable-next-line no-console
                 console.log("Skipping: " + i)
+                e.setDate(e.getDate() + 7)
                 continue;
             }
-
-            // // Summer Break
-            // var summerStart;
-            // var summerEnd; 
 
             // Easter Break
             var easterStart = new Date(2020, 3, 10);
@@ -307,9 +309,9 @@ export default {
             if(i >= easterStart && i <= easterEnd) {
                 // eslint-disable-next-line no-console
                 console.log("Skipping: " + i);
+                e.setDate(e.getDate() + 7)
                 continue; 
             }
-
 
             // March Break
             var marchbreakStart = new Date(2020, 1, 29);
@@ -317,14 +319,36 @@ export default {
             if(i >= marchbreakStart && i <= marchbreakEnd) {
                 // eslint-disable-next-line no-console
                 console.log("Skipping: " + i);
+                e.setDate(e.getDate() + 7)
                 continue; 
             }
 
-            
+            // Ped Days
+            var p1 = new Date(2020, 4, 18);
+            var p2 = new Date(2020, 4, 29);
+            var p3 = new Date(2020, 5, 24);
 
+            if((i.getMonth() == p1.getMonth() && i.getDate() == p1.getDate()) || (i.getMonth() == p2.getMonth() && i.getDate() == p2.getDate()) || (i.getMonth() == p3.getMonth() && i.getDate() == p3.getDate()) ){
+                // eslint-disable-next-line no-console
+                console.log("Skipping: " + i);
+                e.setDate(e.getDate() + 7)
+                continue;
+            }
 
+            // // Summer Break
+            var summerStart = new Date(2020, 6, 1);
+            var summerEnd = new Date(2020, 6, 29);
+            if(i >= summerStart && i <= summerEnd) {
+                // eslint-disable-next-line no-console
+                console.log("Skipping: " + i);
+                e.setDate(e.getDate() + 7)
+                continue; 
+            }
+
+        
             this.dates.push(i.getDate() + "/" + (i.getMonth()+1) + "/" + i.getFullYear());
-            //console.log(this.dates);
+            // eslint-disable-next-line no-console
+            console.log(this.dates.length);
         }
 
         

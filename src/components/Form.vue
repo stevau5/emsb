@@ -51,16 +51,7 @@ export default {
 
     methods: {
         handleSubmit() {
-            // basically useless since I dont emit the object i bind it in the vars above 
-            const newClass = {
-                startDate: this.startDate,
-                teacher: this.teacherName,
-                school: this.schoolName, 
-                address: this.addressName,
-                code: this.groupCode
-            }
             this.hasBeenClicked = true //only useful part of this method
-            this.$emit('generateSchedule', newClass); //useless statement
         }
     }
     
